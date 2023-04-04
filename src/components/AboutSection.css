@@ -1,0 +1,52 @@
+.about-section {
+  padding: 15rem 0;
+}
+
+.about-section .section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-text-box {
+  align-self: center;
+}
+
+.about-text-box h1 {
+  font-size: 4rem;
+  line-height: 4.9rem;
+  color: black;
+}
+
+.about-text-box p {
+  margin: 3.8rem 0 4.8rem 0;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 160%;
+  color: var(--blue);
+}
+
+.about.btn-more {
+  border: 1px solid var(--red);
+}
+
+.about.btn-more span {
+  color: var(--red);
+}
+
+.about.btn-more svg {
+  fill: var(--red);
+}
+
+@media (hover: hover) {
+  .about.btn-more:hover {
+    background-color: var(--red);
+  }
+
+  .about.btn-more:hover span {
+    color: white;
+  }
+
+  .about.btn-more:hover svg {
+    fill: white;
+  }
+}

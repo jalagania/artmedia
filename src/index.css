@@ -1,6 +1,7 @@
 :root {
   --blue: #2b3252;
   --red: #ef5555;
+  --gray: #f8f8fa;
 }
 
 *,
@@ -22,7 +23,7 @@ body {
 }
 
 .section-container {
-  max-width: 120rem;
+  max-width: 142rem;
   margin: 0 auto;
 }
 
