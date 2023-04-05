@@ -20,8 +20,18 @@ export const sliderData = [
     image: "/images/image-cityscape.png",
   },
   {
-    title: "we denounce with righteous indignation",
+    title: "We denounce with righteous indignation",
     date: "10 April 2023",
     image: "/images/image-beach.png",
+  },
+  {
+    title: "The point of using Lorem Ipsum",
+    date: "5 April 2023",
+    image: "/images/image-girl.png",
+  },
+  {
+    title: "On the other hand, we denounce with righteous indignation",
+    date: "1 April 2023",
+    image: "/images/image-cityscape.png",
   },
 ];

@@ -4,10 +4,6 @@
   overflow: hidden;
 }
 
-.news-section-wrapper {
-  padding-left: 25rem;
-}
-
 .news-heading-box {
   display: flex;
   align-items: center;
@@ -30,8 +26,16 @@
   color: black;
 }
 
-.slider-box {
+.slider-container {
+  width: 165rem;
+  padding: 1.2rem 0;
   margin-top: 8.8rem;
   display: flex;
   gap: 5rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.slider-arrows .disabled {
+  opacity: 0.2;
 }
