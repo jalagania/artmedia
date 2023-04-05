@@ -9,6 +9,7 @@ function Slide({ slideInfo }) {
         <p className="slide-date">{slideInfo.date}</p>
         <ButtonSeeMore class="slide" />
       </div>
+      <div className="overlay"></div>
       <img src={slideInfo.image} alt="slide" />
     </article>
   );

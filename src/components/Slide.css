@@ -1,0 +1,53 @@
+.slide-box {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.slide-box .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    205.96deg,
+    rgba(67, 26, 26, 0) -7.14%,
+    #431a1a 121.86%
+  );
+}
+
+.slide-text-box {
+  width: 75%;
+  position: absolute;
+  left: 4rem;
+  bottom: 5rem;
+  z-index: 10;
+}
+
+.slide-heading {
+  font-size: 3.4rem;
+  line-height: 4.1rem;
+  color: white;
+}
+
+.slide-date {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: white;
+  opacity: 0.8;
+  margin: 1.8rem 0 4.7rem 0;
+}
+
+.slide.btn-more {
+  color: white;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.slide.btn-more svg {
+  fill: white;
+}
+
+@media (hover: hover) {
+  .slide.btn-more:hover {
+    background-color: var(--red);
+  }
+}

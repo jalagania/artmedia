@@ -1,0 +1,37 @@
+.news-section {
+  padding: 9.4rem 0 16rem 0;
+  background-color: var(--gray);
+  overflow: hidden;
+}
+
+.news-section-wrapper {
+  padding-left: 25rem;
+}
+
+.news-heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-arrows {
+  display: flex;
+  gap: 2rem;
+}
+
+.slider-arrows button {
+  cursor: pointer;
+}
+
+.news-heading-box h1 {
+  font-size: 4rem;
+  line-height: 4.9rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.slider-box {
+  margin-top: 8.8rem;
+  display: flex;
+  gap: 5rem;
+}
