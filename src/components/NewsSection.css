@@ -39,3 +39,31 @@
 .slider-arrows .disabled {
   opacity: 0.2;
 }
+
+@media (max-width: 1440px) {
+  .news-heading-box h1 {
+    font-size: 3.5rem;
+  }
+
+  .slider-container {
+    width: 130rem;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .news-heading-box h1 {
+    font-size: 3rem;
+  }
+
+  .slider-container {
+    width: 124rem;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .slider-container {
+    width: 120rem;
+  }
+}

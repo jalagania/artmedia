@@ -18,7 +18,7 @@ header .section-container {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 2.7rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: var(--blue);
 }
 
@@ -84,5 +84,11 @@ header .section-container {
 @media (hover: hover) {
   .nav-links li:hover {
     color: var(--red);
+  }
+}
+
+@media (max-width: 1366px) {
+  .nav-links {
+    gap: 4rem;
   }
 }

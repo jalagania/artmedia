@@ -54,3 +54,28 @@
     fill: white;
   }
 }
+
+@media (max-width: 1440px) {
+  .about-image-box img {
+    width: 82%;
+  }
+
+  .about-text-box h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .about-image-box img {
+    width: 78%;
+  }
+
+  .about-text-box h1 {
+    font-size: 3rem;
+  }
+
+  .about-text-box p {
+    margin: 3rem 0 4rem 0;
+    font-size: 1.8rem;
+  }
+}

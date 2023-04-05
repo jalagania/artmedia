@@ -55,3 +55,15 @@ a:visited {
   color: inherit;
   text-decoration: none;
 }
+
+@media (max-width: 1440px) {
+  .section-container {
+    max-width: 124rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .section-container {
+    max-width: 120rem;
+  }
+}

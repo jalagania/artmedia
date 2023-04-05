@@ -55,3 +55,37 @@
     background-color: var(--red);
   }
 }
+
+@media (max-width: 1440px) {
+  .slide-box {
+    width: 33rem;
+  }
+
+  .slide-text-box {
+    width: 80%;
+  }
+
+  .slide-heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width: 1366px) {
+  .slide-box {
+    width: 30rem;
+  }
+
+  .slide-text-box {
+    width: 75%;
+  }
+
+  .slide-heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .slide-date {
+    margin: 1.5rem 0 3.5rem 0;
+  }
+}

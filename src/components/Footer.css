@@ -19,7 +19,7 @@ footer .section-container {
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 2.7rem;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: white;
 }
 
@@ -122,5 +122,19 @@ footer .section-container {
   .social-media-links img:hover {
     filter: brightness(0) saturate(100%) invert(38%) sepia(81%) saturate(1245%)
       hue-rotate(330deg) brightness(100%) contrast(88%);
+  }
+}
+
+@media (max-width: 1366px) {
+  .footer-logo-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-nav-links {
+    gap: 4rem;
+  }
+
+  .social-media-links {
+    justify-content: center;
   }
 }
