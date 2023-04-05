@@ -4,7 +4,7 @@ import ButtonSeeMore from "./ButtonSeeMore";
 
 function AboutSection() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <div className="section-container">
         <div className="about-image-box">
           <img src={aboutImg} alt="robot" />

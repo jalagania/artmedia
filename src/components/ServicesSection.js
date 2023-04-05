@@ -6,7 +6,7 @@ import audioIcon from "../assets/icon-audio.svg";
 
 function ServicesSection() {
   return (
-    <section className="services-section">
+    <section className="services-section" id="services">
       <div className="section-container">
         <h1 className="services-heading">Services</h1>
         <div className="services-container">

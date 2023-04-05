@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header>
-      <div className="section-container">
+      <div className="section-container" id="home">
         <div className="logo-box">
           <img src={logoRed} alt="logo" className="logo" />
           <p className="company-name">Artmedia</p>
@@ -47,12 +47,12 @@ function Header() {
             </li>
           </ul>
         </nav>
-        <div className="search-box">
+        <form className="search-box" onSubmit={(e) => e.preventDefault()}>
           <input type="text" placeholder="Search keyword ..." />
           <button className="btn-search">
             <img src={searchIcon} alt="search" />
           </button>
-        </div>
+        </form>
       </div>
     </header>
   );
