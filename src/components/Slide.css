@@ -89,3 +89,22 @@
     margin: 1.5rem 0 3.5rem 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .slide-box {
+    width: 28rem;
+  }
+
+  .slide-text-box {
+    width: 75%;
+  }
+
+  .slide-heading {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .slide-date {
+    margin: 1.5rem 0 3.5rem 0;
+  }
+}

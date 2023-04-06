@@ -67,3 +67,21 @@ a:visited {
     max-width: 120rem;
   }
 }
+
+@media (max-width: 1200px) {
+  .section-container {
+    max-width: 110rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-container {
+    max-width: 95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    max-width: 70rem;
+  }
+}

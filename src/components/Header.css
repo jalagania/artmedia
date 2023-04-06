@@ -8,6 +8,10 @@ header .section-container {
   justify-content: space-between;
 }
 
+.btn-menu {
+  display: none;
+}
+
 .logo-box {
   display: flex;
   align-items: center;
@@ -90,5 +94,99 @@ header .section-container {
 @media (max-width: 1366px) {
   .nav-links {
     gap: 4rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo-box {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .company-name {
+    display: none;
+  }
+
+  .nav-links li {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 3rem 0;
+  }
+
+  .nav-links {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .btn-menu {
+    width: 4rem;
+    display: block;
+    cursor: pointer;
+  }
+
+  .logo-box {
+    flex-direction: row;
+  }
+
+  .logo-box .logo {
+    width: 3rem;
+  }
+
+  .company-name {
+    display: block;
+    font-size: 1.8rem;
+  }
+
+  .navigation,
+  .menu-modal-bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 10.6rem;
+    left: -50%;
+    transition: all 0.4s;
+  }
+
+  .slide-left {
+    left: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 30rem;
+    padding: 3rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    position: relative;
+    z-index: 10;
+  }
+
+  .menu-modal-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .navigation {
+    left: -100%;
+  }
+
+  .slide-left {
+    left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-box {
+    display: none;
   }
 }
