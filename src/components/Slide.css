@@ -4,7 +4,7 @@
 }
 
 .slide-box:first-child {
-  box-shadow: 0 22px 0 -12px var(--red);
+  box-shadow: 0 21px 0 -12px var(--red);
 }
 
 .slide-box .overlay {
@@ -81,12 +81,12 @@
   }
 
   .slide-heading {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
   }
 
   .slide-date {
-    margin: 1.5rem 0 3.5rem 0;
+    margin: 1.2rem 0 3rem 0;
   }
 }
 

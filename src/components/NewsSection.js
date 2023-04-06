@@ -6,19 +6,31 @@ import arrowRight from "../assets/icon-long-arrow-right.svg";
 import { useRef, useState } from "react";
 
 function NewsSection() {
+  const mobile = window.innerWidth <= 500;
   const [leftDisabled, setLeftDisabled] = useState(true);
   const [rightDisabled, setRightDisabled] = useState(false);
 
   const slider = useRef();
 
-  function handleLeftArrow() {
+  function moveSlider(arg) {
     const slide = slider.current.firstElementChild;
-    slider.current.scrollLeft -= slide.clientWidth * 2;
+    const gap = parseFloat(getComputedStyle(slider.current).gap);
+    const size = mobile
+      ? slide.clientWidth + gap
+      : (slide.clientWidth + gap) * 2;
+    if (arg === "minus") {
+      slider.current.scrollLeft -= size;
+    } else {
+      slider.current.scrollLeft += size;
+    }
+  }
+
+  function handleLeftArrow() {
+    moveSlider("minus");
   }
 
   function handleRightArrow() {
-    const slide = slider.current.firstElementChild;
-    slider.current.scrollLeft += slide.clientWidth * 2;
+    moveSlider("plus");
   }
 
   function handleScroll(event) {
@@ -28,7 +40,10 @@ function NewsSection() {
       setLeftDisabled(true);
     }
 
-    if (event.target.scrollLeft >= event.target.clientWidth) {
+    if (
+      event.target.scrollWidth - event.target.clientWidth ===
+      event.target.scrollLeft
+    ) {
       setRightDisabled(true);
     } else {
       setRightDisabled(false);

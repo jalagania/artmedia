@@ -70,7 +70,7 @@
   .hero-section-wrapper {
     max-width: 128rem;
     height: 62rem;
-    padding-top: 24rem;
+    padding-top: 22rem;
   }
 
   .hero-text-box h1 {
@@ -135,6 +135,13 @@
   .hero-section-wrapper {
     height: 45rem;
     padding-top: 8rem;
+    background-image: linear-gradient(
+        205.96deg,
+        rgba(67, 26, 26, 0) -20%,
+        #431a1a 80%
+      ),
+      url(../assets/image-hero.png);
+    background-position: top;
   }
 
   .hero-text-box {
