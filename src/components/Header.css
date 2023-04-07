@@ -58,6 +58,10 @@ header .section-container {
   align-items: center;
 }
 
+.btn-search {
+  cursor: pointer;
+}
+
 .search-box input {
   margin-right: -2rem;
   padding: 1.3rem 2rem 1.3rem 0;
@@ -95,6 +99,10 @@ header .section-container {
   .nav-links {
     gap: 4rem;
   }
+
+  .nav-links li {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -107,10 +115,6 @@ header .section-container {
 @media (max-width: 1000px) {
   .company-name {
     display: none;
-  }
-
-  .nav-links li {
-    font-size: 1.6rem;
   }
 }
 

@@ -14,19 +14,19 @@ function ServicesSection() {
             <div className="service-icon-wrapper">
               <img src={moneyIcon} alt="money" />
             </div>
-            <p>Service Name</p>
+            <p>Web Development</p>
           </div>
           <div className="service-box">
             <div className="service-icon-wrapper">
               <img src={walletIcon} alt="wallet" />
             </div>
-            <p>Service Name</p>
+            <p>Mobile Development</p>
           </div>
           <div className="service-box">
             <div className="service-icon-wrapper">
               <img src={audioIcon} alt="audio" />
             </div>
-            <p>Service Name</p>
+            <p>UX/UI Design</p>
           </div>
         </div>
       </div>
