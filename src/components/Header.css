@@ -130,7 +130,6 @@ header .section-container {
 
 @media (max-width: 850px) {
   .btn-menu {
-    width: 4rem;
     display: block;
     cursor: pointer;
   }
@@ -181,6 +180,10 @@ header .section-container {
 
 @media (max-width: 500px) {
   .logo-box {
+    order: 1;
+  }
+
+  .company-name {
     display: none;
   }
 }
