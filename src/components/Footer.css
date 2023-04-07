@@ -134,6 +134,10 @@ footer .section-container {
     gap: 4rem;
   }
 
+  .footer-nav-links li {
+    font-size: 1.6rem;
+  }
+
   .social-media-links {
     justify-content: center;
   }
