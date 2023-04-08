@@ -104,6 +104,11 @@
 @media (max-width: 768px) {
   .slider-container {
     width: 70rem;
+    overflow-x: scroll;
+  }
+
+  .slider-container::-webkit-scrollbar {
+    display: none;
   }
 }
 
